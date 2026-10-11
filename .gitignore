@@ -1,0 +1,16 @@
+# 2. Nunca subir secretos a Git
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+id_rsa*
+secrets.*
+credentials.*
+config.local.*
+*.bak
+*.map
+.DS_Store
+Thumbs.db
+node_modules/
